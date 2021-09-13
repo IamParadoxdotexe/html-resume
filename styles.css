@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+@media print {
+    body {
+        width: 8.5in;
+        height: 11in;
+    }
+}
