@@ -2,7 +2,7 @@ const WorkExperience = [
     {
         title: 'Angular Web Developer',
         subtitle: 'Bio-CS Bridge Project',
-        tag: '08/2019 - present',
+        tag: 'Aug 2019 — present',
         content: `<ul>
             <li>Built a new platform from the ground up for disseminating a network of transdisciplinary lesson plans to high school teachers</li>
             <li>Overhauled a mobile web app to refine user experience and enhance functionality for 100 monthly users</li>
@@ -12,7 +12,7 @@ const WorkExperience = [
     {
         title: 'Network Automation Intern',
         subtitle: 'State Street Corporation',
-        tag: '06/2019 - 08/2019',
+        tag: 'Jun 2019 — Aug 2019',
         content: `<ul>
             <li>Developed and deployed a web portal to automate employee onoboarding onto the Cisco phone network</li>
             <li>Initiated a department-wide switch from bash scripts to Python automation for increased productivity</li>
