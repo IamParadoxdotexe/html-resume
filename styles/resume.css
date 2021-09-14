@@ -1,67 +1,56 @@
 body {
-    display: flex;
     width: 8.5in;
     height: 11in;
+    overflow: hidden;
 }
 
-/* SIDEBAR */
-.sidebar {
-    height: 100%;
-    width: 25%;
-    padding: var(--padding);
-    background: var(--background-primary);
+/* HEADER */
+.header {
+    padding: var(--padding-lg) var(--padding-sm) var(--padding-sm);
     color: var(--color-inverse-primary);
-}
-
-.sidebar .sidebar__section {
-
-}
-
-.sidebar .sidebar__section:not(:last-child) {
-    margin-bottom: 0.4in;
-}
-
-.sidebar .sidebar__header {
-    font-size: var(--font-size-xl);
-    font-weight: bold;
-    margin-bottom: 0.15in;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
-}
-
-.sidebar .sidebar__list {
+    background: var(--background-primary);
     display: flex;
-    flex-direction: column;
-    gap: 0.2in;
+    justify-content: space-between;
 }
 
-/* MAIN */
-.main {
-    width: 80%;
-    padding: var(--padding);
+.header__left {
     display: flex;
     flex-direction: column;
 }
 
-.main .main__name {
+.header__name {
     font-size: var(--font-size-xxl);
-    color: var(--accent-primary);
     font-weight: bold;
     line-height: 100%;
 }
 
-.main .main__title {
+.header__title {
     font-weight: bold;
     font-style: italic;
     margin-bottom: 0.2in;
 }
 
-.main .main__description {
+.header__bio {
     font-size: var(--font-size-sm);
+    width: 3.5in;
+}
+
+/* FRAMEWORK */
+.resume__framework {
+    display: flex;
+}
+
+/* MAIN */
+.main {
+    width: 80%;
+    padding: var(--padding-sm) var(--padding-sm) var(--padding-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4in;
 }
 
 .main .main__section {
     width: 100%;
-    margin-top: 0.4in;
     display: flex;
     --icon-size: 24px;
 }
@@ -98,6 +87,32 @@ body {
 }
 
 .main .main__section .section__right .section__experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2in;
+}
+
+/* SIDEBAR */
+.sidebar {
+    height: 100%;
+    width: 25%;
+    padding: var(--padding-sm) var(--padding-sm) var(--padding-lg);
+    background: var(--accent-primary);
+    color: var(--color-inverse-primary);
+}
+
+.sidebar .sidebar__section:not(:last-child) {
+    margin-bottom: 0.4in;
+}
+
+.sidebar .sidebar__header {
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+    margin-bottom: 0.15in;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.sidebar .sidebar__list {
     display: flex;
     flex-direction: column;
     gap: 0.2in;
