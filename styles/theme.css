@@ -16,7 +16,7 @@
     --font-size-xxl: 36px;
 
     --padding-sm: 0.35in;
-    --padding-lg: 0.75in;
+    --padding-lg: 0.7in;
 }
 
 body {
@@ -27,6 +27,8 @@ body {
     font-family: var(--font-family-primary);
     font-size: 100%;
     color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
 }
 
 * {
