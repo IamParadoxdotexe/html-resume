@@ -1,5 +1,6 @@
 :root {
     --font-family-primary: 'Roboto', sans-serif;
+    --font-family-secondary: 'Roboto Condensed', sans-serif;
 
     --color-primary: #000;
     --color-inverse-primary: #ffffff;
@@ -14,8 +15,8 @@
     --font-size-xl: 24px;
     --font-size-xxl: 36px;
 
-    --padding-sm: 0.35in;
-    --padding-lg: 0.7in;
+    --padding-sm: 0.325in;
+    --padding-lg: 0.65in;
 }
 
 body {
