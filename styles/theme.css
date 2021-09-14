@@ -15,11 +15,14 @@
     --font-size-xl: 24px;
     --font-size-xxl: 36px;
 
-    --padding-sm: 0.325in;
-    --padding-lg: 0.65in;
+    --padding-sm: 0.35in;
+    --padding-lg: 0.75in;
 }
 
 body {
+    width: 8.5in;
+    height: 11in;
+    overflow: hidden;
     margin: 0;
     font-family: var(--font-family-primary);
     font-size: 100%;
