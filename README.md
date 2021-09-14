@@ -5,4 +5,5 @@ Professional, print resume of Nathan J Klingensmith written completely in HTML a
 To print my resume, open `resume.html` in your browser and print with the following settings:
 * `Destination` Save as PDF
 * `Margins` None
-* `Headers and footers` False
+* `Headers and footers` *Checked*
+* `Background graphics` *Checked*
