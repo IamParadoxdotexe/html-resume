@@ -14,38 +14,24 @@ body {
 }
 
 .sidebar .sidebar__section {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2in;
-}
 
-.sidebar .sidebar__header {
-    font-size: var(--font-size-xl);
-    font-weight: bold;
-    margin-bottom: -0.05in;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 }
 
 .sidebar .sidebar__section:not(:last-child) {
     margin-bottom: 0.4in;
 }
 
-.sidebar .sidebar__info {
+.sidebar .sidebar__header {
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+    margin-bottom: 0.15in;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.sidebar .sidebar__list {
     display: flex;
     flex-direction: column;
-}
-
-.sidebar .sidebar__info strong {
-    margin-bottom: 0.05in;
-    font-weight: 500;
-}
-
-.sidebar .sidebar__info :not(strong) {
-    font-size: var(--font-size-sm);
-}
-
-.sidebar .sidebar__info a {
-    color: var(--accent-secondary);
+    gap: 0.2in;
 }
 
 /* MAIN */
