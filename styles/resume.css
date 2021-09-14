@@ -60,3 +60,85 @@ body {
 .main .main__description {
     font-size: var(--font-size-sm);
 }
+
+.main .main__section {
+    margin-top: 0.4in;
+    display: flex;
+    --icon-size: 24px;
+}
+
+.main .main__section .section__left {
+    margin-right: 0.1in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .main__section .section__left svg {
+    margin-bottom: 0.2in;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    min-height: var(--icon-size);
+}
+
+.main .main__section .section__left .section__line {
+    height: 100%;
+    width: 2px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.main .main__section .section__right .section__title {
+    font-size: var(--font-size-xl);
+    line-height: var(--icon-size);
+    font-weight: bold;
+    margin-bottom: 0.15in;
+}
+
+.main .main__section .section__right .section__entry:not(:last-child) {
+    margin-bottom: 0.2in;
+}
+
+.main .main__section .section__right .section__entry .entry__header {
+    position: relative;
+    margin-bottom: 0.1in;
+}
+
+.main .main__section .section__right .section__entry .entry__header .entry__title {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: bold;
+    margin-bottom: 0.025in;
+    display: flex;
+    align-items: center;
+}
+
+.main .main__section .section__right .section__entry .entry__header .entry__title span {
+    position: absolute;
+    left: calc(-0.22in - 6px);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    background: white;
+}
+
+.main .main__section .section__right .section__entry .entry__header .entry__subtitle {
+    font-size: var(--font-size-sm);
+    font-style: italic;
+}
+
+.main .main__section .section__right .section__entry .entry__header .entry__tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--accent-primary);
+    color: var(--color-inverse-primary);
+    font-size: var(--font-size-xs);
+    line-height: 100%;
+    padding: 0.03in 0.1in;
+    border-radius: 16px;
+}
+
+.main .main__section .section__right .section__entry .entry__content {
+    font-size: var(--font-size-sm);
+}
