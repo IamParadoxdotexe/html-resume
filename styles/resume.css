@@ -1,6 +1,25 @@
-@media print {
-    body {
-        width: 8.5in;
-        height: 11in;
-    }
+body {
+    display: flex;
+    width: 8.5in;
+    height: 11in;
+}
+
+.sidebar {
+    height: 100%;
+    width: 25%;
+    padding: var(--padding);
+    background: var(--background-primary);
+}
+
+.main {
+    width: 80%;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+}
+
+.main__name {
+    font-size: var(--font-size-xxl);
+    font-weight: bold;
+    line-height: 100%;
 }
