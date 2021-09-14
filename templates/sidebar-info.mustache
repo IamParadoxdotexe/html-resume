@@ -1,8 +1,9 @@
 {{#data}}
     <div class="sidebar__info">
         <strong>{{ title }}</strong>
-        <i>{{{ subtitle }}}</i>
+        <div>{{{ subtitle }}}</div>
         <a href="{{ href }}">{{ link }}</a>
+        <i>{{ subtitleItalic }}</i>
     </div>
 {{/data}}
 
@@ -23,5 +24,10 @@
 
     .sidebar__info a {
         color: var(--accent-secondary);
+    }
+
+    .sidebar__info i {
+        font-size: var(--font-size-sm);
+        margin-top: -0.05in;
     }
 </style>
