@@ -63,6 +63,7 @@
 /* SIDEBAR */
 .sidebar {
     width: 35%;
+    height: 100vh;
     padding: var(--padding-sm) var(--padding-sm) var(--padding-lg);
     background: var(--accent-primary);
     color: var(--color-inverse-primary);

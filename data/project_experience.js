@@ -1,10 +1,10 @@
 const ProjectExperience = [
     {
         title: 'Head of Technology',
-        subtitle: 'Pally Technologies',
+        subtitle: 'Pallyt Technologies',
         tag: 'Mar 2021 — present',
         content: `<ul>
-            <li>Led a 5-person Agile Scrum team in the development of an innovative e-commerce app for the construction industry as a prospective startup</li>
+            <li>Leading a 5-person Agile Scrum team in the development of an innovative e-commerce app with an underlying AWS infrastructure</li>
         </ul>`
     },
     {

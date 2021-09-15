@@ -1,10 +1,10 @@
 const Skills = [
     {
-        title: 'HTML, CSS/SCSS',
+        title: 'HTML5, CSS, Sass',
         subtitleItalic: '4 years',
     },
     {
-        title: 'Javascript/Typescript (NodeJS, VueJS, AngularJS)',
+        title: 'Javascript/Typescript frameworks (Node, Vue, Angular)',
         subtitleItalic: '3 years'
     },
     {
