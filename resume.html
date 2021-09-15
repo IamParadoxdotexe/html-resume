@@ -3,9 +3,72 @@
     <head>
         <meta charset="UTF-8">
         <title>HTML Resume</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./styles/theme.css">
+        <link rel="stylesheet" href="./styles/resume.css">
+
+        <script src="https://unpkg.com/mustache@latest"></script>
+        <script src="scripts/helpers.js"></script>
+        <script src="data/work_experience.js"></script>
+        <script src="data/project_experience.js"></script>
+        <script src="data/academic_experience.js"></script>
+        <script src="data/details.js"></script>
+        <script src="data/skills.js"></script>
+
+        <script>
+            fetch('templates/experience.mustache').then(response => response.text()).then(experienceTemplate => {
+                fetch('templates/main-section.mustache').then(response => response.text()).then(sectionTemplate => {
+                    renderTemplate(sectionTemplate, 'work-experience-section', { id: 'work-experience',  title: 'Work History', icon: 'work' });
+                    renderTemplate(experienceTemplate, 'work-experience', WorkExperience);
+
+                    renderTemplate(sectionTemplate, 'project-experience-section', { id: 'project-experience',  title: 'Projects', icon: 'projects' });
+                    renderTemplate(experienceTemplate, 'project-experience', ProjectExperience);
+
+                    renderTemplate(sectionTemplate, 'academic-experience-section', { id: 'academic-experience',  title: 'Education', icon: 'school' });
+                    renderTemplate(experienceTemplate, 'academic-experience', AcademicExperience);
+                });
+            });
+
+            fetch('templates/sidebar-info.mustache').then(response => response.text()).then(template => {
+                renderTemplate(template, 'details', Details);
+                renderTemplate(template, 'skills', Skills);
+            });
+        </script>
     </head>
     <body>
-        Nathan Klingensmith
+        <div class="header">
+            <div class="header__left">
+                <div class="header__name">Nathan Klingensmith</div>
+                <div class="header__role">Web Developer and Designer</div>
+                <div class="header__underscore"></div>
+            </div>
+            <div class="header__right">
+                <div class="header__bio">
+                    Motivated, innovative full-stack developer and UI/UX designer with a passion for building advanced web applications with incredible user experiences.
+                    A natural leader in the Agile lifecycle with a record of effective team communication and product delivery.
+                </div>
+            </div>
+        </div>
+
+        <div class="resume__framework">
+            <div class="main">
+                <div id="work-experience-section"></div>
+                <div id="project-experience-section"></div>
+                <div id="academic-experience-section"></div>
+            </div>
+
+            <div class="sidebar">
+                <div class="sidebar__section">
+                    <div class="sidebar__header title">Info</div>
+                    <div class="sidebar__underscore"></div>
+                    <div id="details" class="sidebar__list"></div>
+                </div>
+
+                <div class="sidebar__section">
+                    <div class="sidebar__header title">Skills</div>
+                    <div class="sidebar__underscore"></div>
+                    <div id="skills" class="sidebar__list"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

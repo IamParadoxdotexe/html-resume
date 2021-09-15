@@ -1,0 +1,41 @@
+:root {
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-secondary: 'Roboto Condensed', sans-serif;
+
+    --color-primary: #000;
+    --color-inverse-primary: #ffffff;
+    --background-primary: #1b1b1b;
+    --accent-primary: #5bcb76;
+    --accent-secondary: #65d47f;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 36px;
+
+    --padding-sm: 0.35in;
+    --padding-lg: 0.7in;
+}
+
+body {
+    width: 8.5in;
+    height: 11in;
+    overflow: hidden;
+    margin: 0;
+    font-family: var(--font-family-primary);
+    font-size: 100%;
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 125%;
+}
+
+ul {
+    margin: 0;
+}

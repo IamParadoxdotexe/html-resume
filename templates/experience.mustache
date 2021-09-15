@@ -1,0 +1,58 @@
+{{#data}}
+<div class="experience">
+    <div class="experience__header">
+        <div class="experience__title"><span></span>{{ title }}</div>
+        <div class="experience__subtitle">{{ subtitle }}</div>
+        <div class="experience__tag">{{ tag }}</div>
+    </div>
+    <div class="experience__content">{{{ content }}}</div>
+</div>
+{{/data}}
+
+<style>
+    .experience .experience__header {
+        position: relative;
+        margin-bottom: 0.1in;
+    }
+
+    .experience .experience__header .experience__title {
+        position: relative;
+        font-size: var(--font-size-lg);
+        font-weight: bold;
+        margin-bottom: 0.025in;
+        display: flex;
+        align-items: center;
+    }
+
+    .experience .experience__header .experience__title span {
+        position: absolute;
+        left: calc(-0.22in - 6px);
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        width: 12px;
+        height: 12px;
+        border-radius: 8px;
+        box-shadow: 0 0 0 4px white;
+        background: white;
+    }
+
+    .experience .experience__header .experience__subtitle {
+        font-size: var(--font-size-sm);
+        font-style: italic;
+    }
+
+    .experience .experience__header .experience__tag {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: var(--accent-primary);
+        color: var(--color-inverse-primary);
+        font-size: var(--font-size-xs);
+        line-height: 100%;
+        padding: 0.03in 0.1in;
+        border-radius: 16px;
+    }
+
+    .experience .experience__content {
+        font-size: var(--font-size-sm);
+    }
+</style>

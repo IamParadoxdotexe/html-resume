@@ -1,0 +1,33 @@
+{{#data}}
+    <div class="sidebar__info">
+        <strong>{{ title }}</strong>
+        <div>{{{ subtitle }}}</div>
+        <a href="{{ href }}">{{ link }}</a>
+        <i>{{ subtitleItalic }}</i>
+    </div>
+{{/data}}
+
+<style>
+    .sidebar__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar__info strong {
+        margin-bottom: 0.05in;
+        font-weight: 500;
+    }
+
+    .sidebar__info :not(strong) {
+        font-size: var(--font-size-sm);
+    }
+
+    .sidebar__info a {
+        color: var(--color-inverse-primary);
+    }
+
+    .sidebar__info i {
+        font-size: var(--font-size-sm);
+        margin-top: -0.05in;
+    }
+</style>
