@@ -1,25 +1,20 @@
 const Details = [
     {
         title: 'Location',
-        subtitle: 'Worcester, MA'
+        subtitle: 'Exeter, NH'
     },
     {
         title: 'Phone',
-        subtitle: '(219) 670-9120'
+        subtitle: '(603) 731-2075'
     },
     {
         title: 'Email',
-        href: 'mailto: njklingensmith@wpi.edu',
-        link: 'njklingensmith@wpi.edu'
+        href: 'mailto: paradistaylor@gmail.com',
+        link: 'paradistaylor@gmail.com'
     },
     {
         title: 'LinkedIn',
-        href: 'https://linkedin.com/in/thenjk',
-        link: 'linkedin.com/in/theNJK'
-    },
-    {
-        title: 'Web Portfolio',
-        href: 'https://thenjk.com',
-        link: 'theNJK.com'
+        href: 'https://linkedin.com/in/taylorparadis',
+        link: 'linkedin.com/in/taylorparadis'
     }
 ];

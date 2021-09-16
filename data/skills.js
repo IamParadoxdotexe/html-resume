@@ -1,22 +1,41 @@
 const Skills = [
     {
-        title: 'HTML5, CSS, Sass',
-        subtitleItalic: '4 years',
+        title: 'CAD (Solidworks), CAM',
     },
     {
-        title: 'Javascript/Typescript frameworks (Node, Vue, Angular)',
-        subtitleItalic: '3 years'
+        title: 'MATLAB',
     },
     {
-        title: 'Git (Github, Gitlab)',
-        subtitleItalic: '3 years'
+        title: 'Microsoft Office'
     },
     {
-        title: 'Figma, AdobeXD',
-        subtitleItalic: '1 year'
+        title: 'Intron'
     },
     {
-        title: 'Amazon Web Services',
-        subtitleItalic: '1 year'
+        title: 'Cell Culturing'
+    },
+    {
+        title: 'Engineering Design'
+    },
+    {
+        title: 'Lab View'
+    },
+    {
+        title: ''
+    },
+    {
+        title: 'Problem-Solving Skills'
+    },
+    {
+        title: 'Technical Writing'
+    },
+    {
+        title: 'Infographics'
+    },
+    {
+        title: 'Communication'
+    },
+    {
+        title: 'Time Management'
     }
 ];

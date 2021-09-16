@@ -1,18 +1,19 @@
 const ProjectExperience = [
     {
-        title: 'Head of Technology',
-        subtitle: 'Pallyt Technologies',
-        tag: 'Mar 2021 — present',
+        title: 'Major Qualifying Project',
+        subtitle: 'Worcester Polytechnic Institute',
+        tag: 'Aug 2021 — present',
         content: `<ul>
-            <li>Leading a 5-person Agile Scrum team in the development of an innovative e-commerce app with an underlying AWS infrastructure</li>
+            <li>Restructuring of the Endothelial Glycocalyx after Pneumonectomy</li>
+            <li>Working on developing computer models and simulations to understand various blood flow patterns and will use 3-D printing to develop in vitro models to understand vascular flow</li>
         </ul>`
     },
     {
-        title: 'Lead Software Engineer',
-        subtitle: 'CS3733 Software Engineering',
-        tag: 'Mar 2020 — May 2020',
+        title: 'Interactive Qualifying Project',
+        subtitle: 'Worcester Polytechnic Institute',
+        tag: 'Jan 2021 — May 2021',
         content: `<ul>
-            <li>Led the development of a 25,000 line, full-stack Java application prototype as part of a 9-person, Agile Scrum team</li>
+            <li>Identified methods to encourage the switch from Cesium-137 to 320 kVp X-ray irradiators in hospitals and research facilities</li>
         </ul>`
     }
 ];
