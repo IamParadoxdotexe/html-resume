@@ -4,11 +4,15 @@ const Skills = [
         subtitleItalic: '4 years',
     },
     {
-        title: 'Javascript/Typescript frameworks (Node, Vue, Angular)',
+        title: 'Javascript/Typescript frameworks (Vue, Angular, Node)',
         subtitleItalic: '3 years'
     },
     {
         title: 'Git (Github, Gitlab)',
+        subtitleItalic: '3 years'
+    },
+    {
+        title: 'Photoshop, Illustrator',
         subtitleItalic: '3 years'
     },
     {
