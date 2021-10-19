@@ -1,7 +1,7 @@
 const Details = [
     {
-        title: 'Address',
-        subtitle: '5 Wachusett St<br>Worcester, MA 01609<br>United States'
+        title: 'Location',
+        subtitle: 'Worcester, MA'
     },
     {
         title: 'Phone',
