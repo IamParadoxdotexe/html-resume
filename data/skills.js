@@ -9,7 +9,7 @@ const Skills = [
         title: 'Microsoft Office'
     },
     {
-        title: 'Intron'
+        title: 'Instron'
     },
     {
         title: 'Cell Culturing'

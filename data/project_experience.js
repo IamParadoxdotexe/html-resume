@@ -4,8 +4,8 @@ const ProjectExperience = [
         subtitle: 'Worcester Polytechnic Institute',
         tag: 'Aug 2021 — present',
         content: `<ul>
-            <li>Restructuring of the Endothelial Glycocalyx after Pneumonectomy</li>
-            <li>Working on developing computer models and simulations to understand various blood flow patterns and will use 3-D printing to develop in vitro models to understand vascular flow</li>
+            <li>Created 2D and 3D computer models and simulations of the pulmonary arteries to understand post-pneumonectomy blood flow</li>
+            <li>Fabricated an in vitro flow chamber to study blood flow pattern changes on human lung microvascular endothelial cells</li>
         </ul>`
     },
     {
