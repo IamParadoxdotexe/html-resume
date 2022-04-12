@@ -1,19 +1,22 @@
 const ProjectExperience = [
     {
-        title: 'Major Qualifying Project',
-        subtitle: 'Worcester Polytechnic Institute',
-        tag: 'Aug 2021 — present',
+        title: 'Online Store Owner',
+        subtitle: 'eBay Marketplace',
+        tag: '2018 - present',
         content: `<ul>
-            <li>Created 2D and 3D computer models and simulations of the pulmonary arteries to understand post-pneumonectomy blood flow</li>
-            <li>Fabricated an in vitro flow chamber to study blood flow pattern changes on human lung microvascular endothelial cells</li>
+            <li>Researching and marketing products</li>
+            <li>Packaging and shipping products promptly</li>
+            <li>Responding to complaints and refund requests</li>
         </ul>`
     },
     {
-        title: 'Interactive Qualifying Project',
-        subtitle: 'Worcester Polytechnic Institute',
-        tag: 'Jan 2021 — May 2021',
+        title: 'Partial Store Tenant',
+        subtitle: 'Vintage Thrift',
+        tag: 'Dec 2019 — Dec 2021',
         content: `<ul>
-            <li>Identified methods to encourage the switch from Cesium-137 to 320 kVp X-ray irradiators in hospitals and research facilities</li>
+            <li>Rented a 200 square foot space to sell product</li>
+            <li>Chose what to stock and how to arrange it</li>
+            <li>Effectively priced products and ran sales</li>
         </ul>`
     }
 ];

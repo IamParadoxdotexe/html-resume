@@ -1,5 +1,8 @@
 {{#data}}
     <div class="sidebar__info">
+        {{#header}}
+            <em>{{ header }}</em>
+        {{/header}}
         <strong>{{ title }}</strong>
         <div>{{{ subtitle }}}</div>
         <a href="{{ href }}">{{ link }}</a>
@@ -29,5 +32,12 @@
     .sidebar__info i {
         font-size: var(--font-size-sm);
         margin-top: -0.05in;
+    }
+
+    .sidebar__info em {
+        margin: 0.1in 0;
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        text-decoration: underline;
     }
 </style>

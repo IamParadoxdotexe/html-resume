@@ -5,8 +5,8 @@
     --color-primary: #000;
     --color-inverse-primary: #ffffff;
     --background-primary: #1b1b1b;
-    --accent-primary: #5692e0;
-    --accent-secondary: #65a1ea;
+    --accent-primary: #af43d5;
+    --accent-secondary: #b454d9;
 
     --font-size-xs: 12px;
     --font-size-sm: 14px;
@@ -16,7 +16,7 @@
     --font-size-xxl: 36px;
 
     --padding-sm: 0.35in;
-    --padding-lg: 0.7in;
+    --padding-lg: 0.6in;
 }
 
 body {

@@ -1,41 +1,20 @@
 const Skills = [
     {
-        title: 'CAD (Solidworks), CAM',
+        title: 'Product Marketing',
     },
     {
-        title: 'MATLAB',
+        title: 'Product Sales',
     },
     {
-        title: 'Microsoft Office'
+        title: 'Sales Goal Delivery'
     },
     {
-        title: 'Instron'
+        title: 'Customer Service'
     },
     {
-        title: 'Cell Culturing'
+        title: 'Merchandise Management'
     },
     {
-        title: 'Engineering Design'
-    },
-    {
-        title: 'Lab View'
-    },
-    {
-        title: ''
-    },
-    {
-        title: 'Problem-Solving Skills'
-    },
-    {
-        title: 'Technical Writing'
-    },
-    {
-        title: 'Infographics'
-    },
-    {
-        title: 'Communication'
-    },
-    {
-        title: 'Time Management'
+        title: 'Store Layout Management'
     }
 ];

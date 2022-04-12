@@ -1,21 +1,32 @@
 const WorkExperience = [
     {
-        title: 'Research Assistant',
-        subtitle: 'WPI Biomedical Engineering Lab',
-        tag: 'Jun 2021 — present',
+        title: 'Sales Associate',
+        subtitle: 'Bob\'s Discount Furniture',
+        tag: 'Dec 2020 — Apr 2022',
         content: `<ul>
-            <li>Studied the mechanical anisotropic properties of soft biomaterials and cells through structured indentation testing</li>
-            <li>Created a methodology for accurately measuring the mechanical properties of soft biomaterials through anisotropic indentation</li>
-            <li>Acquired skills in mechanical testing on an Instron, cell culturing, research, and data analysis</li>
+            <li>Priced and sold furniture on the floor</li>
+            <li>Actively pushed credit plans for customers</li>
+            <li>Answered sales calls</li>
         </ul>`
     },
     {
-        title: 'Continuous Improvement Intern',
-        subtitle: 'SIG Sauer',
-        tag: 'Jun 2019 — Aug 2019',
+        title: 'Merchandiser',
+        subtitle: 'Last Chance Overstock',
+        tag: 'Jul 2017 — Nov 2020',
         content: `<ul>
-            <li>Launched a new continuous improvement project to make SIG Sauer a world class manufacturer</li>
-            <li>Interacted and communicated with all departments and developed personalized methods for maximum optimization</li>
+            <li>Ordered and maintained merchandise</li>
+            <li>Actively and effectively sold furniture</li>
+            <li>Coordinated store arrangement</li>
+        </ul>`
+    },
+    {
+        title: 'Cashier / Cosmetic Sales Associate',
+        subtitle: 'Walgreens',
+        tag: 'Mar 2015 — Jun 2017',
+        content: `<ul>
+            <li>Completed and surpassed sales goals</li>
+            <li>Actively and effectively pushed cosmetics products</li>
+            <li>Provided friendly and useful customer service</li>
         </ul>`
     }
 ];

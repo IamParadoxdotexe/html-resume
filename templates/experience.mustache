@@ -3,7 +3,9 @@
     <div class="experience__header">
         <div class="experience__title"><span></span>{{{ title }}}</div>
         <div class="experience__subtitle">{{ subtitle }}</div>
-        <div class="experience__tag">{{ tag }}</div>
+        {{#tag}}
+            <div class="experience__tag">{{ tag }}</div>
+        {{/tag}}
     </div>
     <div class="experience__content">{{{ content }}}</div>
 </div>

@@ -10,9 +10,10 @@
         <script src="scripts/helpers.js"></script>
         <script src="data/work_experience.js"></script>
         <script src="data/project_experience.js"></script>
-        <script src="data/academic_experience.js"></script>
+        <script src="data/awards-and-achievements.js"></script>
         <script src="data/details.js"></script>
         <script src="data/skills.js"></script>
+        <script src="data/references.js"></script>
 
         <script>
             fetch('templates/experience.mustache').then(response => response.text()).then(experienceTemplate => {
@@ -20,31 +21,32 @@
                     renderTemplate(sectionTemplate, 'work-experience-section', { id: 'work-experience',  title: 'Work History', icon: 'work' });
                     renderTemplate(experienceTemplate, 'work-experience', WorkExperience);
 
-                    renderTemplate(sectionTemplate, 'project-experience-section', { id: 'project-experience',  title: 'Projects', icon: 'projects' });
+                    renderTemplate(sectionTemplate, 'project-experience-section', { id: 'project-experience',  title: 'Personal Experience', icon: 'woman' });
                     renderTemplate(experienceTemplate, 'project-experience', ProjectExperience);
 
-                    renderTemplate(sectionTemplate, 'academic-experience-section', { id: 'academic-experience',  title: 'Education', icon: 'school' });
-                    renderTemplate(experienceTemplate, 'academic-experience', AcademicExperience);
+                    renderTemplate(sectionTemplate, 'awards-and-achievements-section', { id: 'awards-and-achievements',  title: 'Awards & Achievements', icon: 'star' });
+                    renderTemplate(experienceTemplate, 'awards-and-achievements', AwardsAndAchievements);
                 });
             });
 
             fetch('templates/sidebar-info.mustache').then(response => response.text()).then(template => {
                 renderTemplate(template, 'details', Details);
                 renderTemplate(template, 'skills', Skills);
+              renderTemplate(template, 'references', References);
             });
         </script>
     </head>
     <body>
         <div class="header">
             <div class="header__left">
-                <div class="header__name">Taylor Paradis</div>
-                <div class="header__role">Biomedical and Mechanical Engineer</div>
+                <div class="header__name">Jewel Klingensmith</div>
+                <div class="header__role">Sales Associate and Merchandiser</div>
                 <div class="header__underscore"></div>
             </div>
             <div class="header__right">
                 <div class="header__bio">
-                    Senior at Worcester Polytechnic Institute pursuing a bachelor's degree in Biomedical Engineering and
-                    Mechanical Engineering. Motivated, detailed oriented, hardworking, and passionate for STEM.
+                    Motivated and experienced saleswoman with a passion for selling merchandise and engaging with customers.
+                    An expert at organizing inventory, promoting products, and closing deals with a record of surpassing sales expectations.
                 </div>
             </div>
         </div>
@@ -52,8 +54,8 @@
         <div class="resume__framework">
             <div class="main">
                 <div id="work-experience-section"></div>
-                <div id="project-experience-section"></div>
-                <div id="academic-experience-section"></div>
+                <div id="awards-and-achievements-section"></div>
+                <div id="project-experience-section" style="margin-top: 56px"></div>
             </div>
 
             <div class="sidebar">
@@ -67,6 +69,12 @@
                     <div class="sidebar__header title">Skills</div>
                     <div class="sidebar__underscore"></div>
                     <div id="skills" class="sidebar__list"></div>
+                </div>
+
+                <div class="sidebar__section" style="margin-top: 343px">
+                    <div class="sidebar__header title">References</div>
+                    <div class="sidebar__underscore"></div>
+                    <div id="references" class="sidebar__list"></div>
                 </div>
             </div>
         </div>
