@@ -18,16 +18,22 @@ const Skills = [
         title: 'Engineering Design'
     },
     {
-        title: 'Lab View'
+        title: 'Arduino'
     },
     {
         title: ''
     },
     {
-        title: 'Problem-Solving Skills'
+        title: ''
+    },
+    {
+        title: 'Data Analysis'
     },
     {
         title: 'Technical Writing'
+    },
+    {
+        title: 'Problem-Solving'
     },
     {
         title: 'Infographics'

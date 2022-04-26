@@ -8,15 +8,15 @@
     --accent-primary: #5692e0;
     --accent-secondary: #65a1ea;
 
-    --font-size-xs: 12px;
-    --font-size-sm: 14px;
-    --font-size-md: 16px;
-    --font-size-lg: 18px;
+    --font-size-xs: 10px;
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-lg: 16px;
     --font-size-xl: 24px;
     --font-size-xxl: 36px;
 
-    --padding-sm: 0.35in;
-    --padding-lg: 0.7in;
+    --padding-sm: 0.25in;
+    --padding-lg: 0.45in;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 
 * {
     box-sizing: border-box;
-    line-height: 125%;
+    line-height: 110%;
 }
 
 ul {
