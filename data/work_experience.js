@@ -4,9 +4,8 @@ const WorkExperience = [
         subtitle: 'WPI Biomedical Engineering Lab',
         tag: 'Jun 2021 — present',
         content: `<ul>
-            <li>Studied the mechanical anisotropic properties of soft biomaterials and cells through structured indentation testing</li>
-            <li>Created a methodology for accurately measuring the mechanical properties of soft biomaterials through anisotropic indentation</li>
-            <li>Measured mechanical properties using cell culturing and Instron testing</li>
+            <li>Studied the mechanical properties of soft biomaterials and cells through structured indentation using an Instron</li>
+            <li>Created a methodology for accurately measuring the anisotropic properties of soft biomaterials through anisotropic indentation</li>
         </ul>`
     },
     {
@@ -24,6 +23,7 @@ const WorkExperience = [
         tag: 'May 2016 — Nov 2021',
         content: `<ul>
             <li>Provided excellent customer service for over 5 years, exhibiting strong work ethic</li>
+            <li>Assisted customers effectively and helped manage the front-end</li>
         </ul>`
     }
 ];

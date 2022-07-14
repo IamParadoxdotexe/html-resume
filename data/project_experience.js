@@ -13,15 +13,17 @@ const ProjectExperience = [
         subtitle: 'Worcester Polytechnic Institute',
         tag: 'Jan 2021 — May 2021',
         content: `<ul>
+            <li>Studied Cesium-137 and 320 kVp X-ray irradiators</li>
             <li>Identified methods to encourage the switch from Cesium-137 to 320 kVp X-ray irradiators in hospitals and research facilities</li>
         </ul>`
     },
     {
         title: 'Amputee Prosthetic Development',
         subtitle: 'Worcester Polytechnic Institute',
-        tag: 'Jan 2021 — March 2021',
+        tag: 'Jan 2021 — Mar 2021',
         content: `<ul>
             <li>Designed and prototyped a partial foot prosthetic for an amputee client</li>
+            <li>Carried out a literature review in diabetes and performed gait analysis</li>
         </ul>`
     },
     {
@@ -29,7 +31,8 @@ const ProjectExperience = [
         subtitle: 'Worcester Polytechnic Institute',
         tag: 'Aug 2018 — Dec 2018',
         content: `<ul>
-            <li>Collaborated with an undergraduate research team to study the long-term effects of neonatal abstinence syndrome, forming support and treatment plans</li>
+            <li>Studied the long-term effects of neonatal abstinence syndrome in babies</li>
+            <li>Collaborated with a research team to form support and treatment plans</li>
         </ul>`
     }
 ];

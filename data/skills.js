@@ -9,9 +9,6 @@ const Skills = [
         title: 'Microsoft Office'
     },
     {
-        title: 'Instron'
-    },
-    {
         title: 'Cell Culturing'
     },
     {
@@ -19,12 +16,6 @@ const Skills = [
     },
     {
         title: 'Arduino'
-    },
-    {
-        title: ''
-    },
-    {
-        title: ''
     },
     {
         title: 'Data Analysis'
