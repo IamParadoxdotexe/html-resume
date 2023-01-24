@@ -57,7 +57,7 @@
     padding: var(--padding-sm) var(--padding-sm) var(--padding-lg);
     display: flex;
     flex-direction: column;
-    gap: 0.4in;
+    gap: 0.24in;
 }
 
 /* SIDEBAR */

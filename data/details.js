@@ -1,7 +1,7 @@
 const Details = [
     {
         title: 'Location',
-        subtitle: 'Worcester, MA'
+        subtitle: 'Chelmsford, MA'
     },
     {
         title: 'Phone',
@@ -9,8 +9,8 @@ const Details = [
     },
     {
         title: 'Email',
-        href: 'mailto: njklingensmith@wpi.edu',
-        link: 'njklingensmith@wpi.edu'
+        href: 'nathan@thenjk.com',
+        link: 'nathan@thenjk.com'
     },
     {
         title: 'LinkedIn',
